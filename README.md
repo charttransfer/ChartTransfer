@@ -147,6 +147,10 @@ Compared with Nano-Banana-Pro (state-of-the-art generative model) across 30 test
 
 The authoring tool achieved a **SUS score of 85.67** (Excellent) in a usability study with 10 novice users.
 
+## Note
+
+ChartTransfer builds upon the [ChartGalaxy](https://github.com/ChartGalaxy/ChartGalaxy) project for chart generation (e.g., D3-based template rendering). Since ChartGalaxy's generation code is not open-sourced, that portion is not included in this repository. The authoring tool remains fully functional through pre-computed cache — you can explore the complete workflow using the bundled example without the chart generation module.
+
 ## License
 
 This project is released under the [Apache 2.0 License](LICENSE).
