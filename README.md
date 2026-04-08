@@ -6,14 +6,9 @@
   <img src="asset/teaser.png" width="100%"/>
 </p>
 
-## Overview
+## Abstract
 
-Creating effective infographic charts requires substantial expertise in layout design and visual styling. ChartTransfer lowers this barrier by allowing users to construct new infographic charts by referencing existing examples.
-
-**Key idea:** We introduce a **scene graph** representation that captures the hierarchical structure and spatial constraints of an example infographic. Building on this, ChartTransfer follows a **decomposition-recomposition** pipeline:
-
-1. **Decomposition** — Parse the example into a scene graph that encodes element attributes, hierarchical structure, and spatial constraints.
-2. **Recomposition** — Generate new visual elements for the target data and compose them via **bilevel layout optimization** that balances visual similarity to the example with readability of the new infographic.
+Infographic charts are widely used in data storytelling for general audiences due to their engaging visual elements and bindings with the underlying data. Creating effective infographic charts, however, demands substantial design expertise that is beyond the reach of most users. We propose ChartTransfer, an example-based method that empowers users to construct infographic charts by transferring design knowledge from professionally crafted examples. ChartTransfer introduces a scene graph representation that captures both the hierarchical structure and spatial constraints of example infographics. Building on this, we develop a decomposition-recomposition pipeline that first parses the example into a scene graph and then recomposes it with new visual elements and data. To handle changes in data distribution, we propose a bilevel layout optimization that applies discrete structural edits at the upper level to restore readability while continuously adjusting element positions and sizes at the lower level using Signed Distance Function (SDF)-based spatial optimization. We further develop an interactive authoring tool that supports element-level refinement, style customization, and layout exploration. Quantitative evaluations show that our SDF-based spatial optimization outperforms grid-search baselines in both quality and speed. A user study with 15 participants demonstrates that ChartTransfer produces infographic charts with significantly higher data fidelity and layout similarity compared to a state-of-the-art generative model, while a usability study with 10 novice users confirms that the authoring tool is easy to use (SUS score: 85.67).
 
 ## Features
 
