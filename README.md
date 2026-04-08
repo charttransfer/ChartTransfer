@@ -2,6 +2,8 @@
 
 > ChartTransfer is an example-based method for constructing infographic charts. It transfers design knowledge from professionally crafted examples to target data through a scene graph representation and bilevel layout optimization, enabling non-expert users to create high-quality infographic charts.
 
+**Project Page:** [https://charttransfer.github.io](https://charttransfer.github.io)
+
 <p align="center">
   <img src="asset/teaser.png" width="100%"/>
 </p>
