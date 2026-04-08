@@ -28,7 +28,18 @@ ChartTransfer/
 │   └── config.json              # Example and data group configuration
 ├── chart_modules/               # Chart and element generation
 ├── layout_system/               # Layout optimization
+├── buffer_new_system/           # Default cached session data
+├── processed_data/              # Example datasets (CSV/JSON)
+├── infographics/                # Reference infographic images
+├── extracted_layout_results/    # Pre-extracted layout data
+├── logs/                        # Scene tree exports and logs
+├── static/                      # Static assets (chart type icons)
+├── asset/                       # Teaser and other images
 ├── config.py                    # API key configuration
+├── color_palettes.json          # Color palette definitions
+├── style_analyses.json          # Style analysis data
+├── results_comparison_index.json # Example metadata index
+├── paper.pdf                    # Paper PDF
 ├── requirements.txt             # Python dependencies
 └── README.md
 ```
