@@ -1,0 +1,294 @@
+.layout-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.layout-panel .panel-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #fafbfc;
+}
+
+/* ── Toolbar ─────────────────────────────────────────── */
+
+.lp-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-bottom: 1px solid #e0e0e0;
+  background: #f7f8fa;
+  flex-shrink: 0;
+}
+
+.lp-btn {
+  padding: 5px 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.lp-btn:hover:not(:disabled) {
+  background: #f0f0f0;
+}
+
+.lp-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.lp-btn-primary {
+  background: #1976d2;
+  color: #fff;
+  border-color: #1565c0;
+}
+
+.lp-btn-primary:hover:not(:disabled) {
+  background: #1565c0;
+}
+
+.lp-bg-picker {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: #555;
+  cursor: pointer;
+}
+
+.lp-bg-picker input[type="color"] {
+  width: 28px;
+  height: 24px;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background: none;
+}
+
+.lp-selection-hint {
+  margin-left: auto;
+  font-size: 12px;
+  color: #666;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── Bilevel Candidate Bar ────────────────────────────── */
+
+.lp-candidate-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-bottom: 1px solid #e0e0e0;
+  background: #eef3fa;
+  flex-shrink: 0;
+}
+
+.lp-candidate-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #444;
+  margin-right: 4px;
+}
+
+.lp-candidate-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border: 1px solid #b0c4de;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.lp-candidate-btn:hover {
+  background: #d6e4f5;
+}
+
+.lp-candidate-btn.active {
+  background: #1976d2;
+  color: #fff;
+  border-color: #1565c0;
+  font-weight: 600;
+}
+
+.lp-candidate-btn.initial {
+  border-color: #a5d6a7;
+}
+
+.lp-candidate-btn.initial:not(.active) {
+  background: #e8f5e9;
+}
+
+.lp-candidate-btn.initial.active {
+  background: #388e3c;
+  border-color: #2e7d32;
+}
+
+.lp-candidate-loss {
+  font-size: 11px;
+  opacity: 0.75;
+}
+
+/* ── Viewport / Canvas ───────────────────────────────── */
+
+.lp-viewport {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  cursor: grab;
+  background: #e8eaed;
+}
+
+.lp-viewport:active {
+  cursor: grabbing;
+}
+
+.lp-canvas {
+  position: absolute;
+  transform-origin: 0 0;
+  top: 0;
+  left: 0;
+}
+
+.lp-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+/* ── Element ─────────────────────────────────────────── */
+
+.lp-element {
+  position: absolute;
+  cursor: move;
+  box-sizing: border-box;
+}
+
+.lp-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  pointer-events: none;
+  display: block;
+}
+
+.lp-element svg {
+  pointer-events: none;
+}
+
+.lp-element.selected {
+  outline: 2px solid #2196F3;
+  outline-offset: 0px;
+  z-index: 10;
+}
+
+.lp-element.placeholder {
+  border: 2px dashed #aaa;
+  background: rgba(200, 200, 200, 0.15);
+}
+
+.lp-placeholder-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: #999;
+  font-size: 12px;
+  text-transform: uppercase;
+  pointer-events: none;
+  user-select: none;
+}
+
+.lp-placeholder-label {
+  font-size: 10px;
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: none;
+}
+
+/* ── Resize handle ───────────────────────────────────── */
+
+.lp-resize-handle {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  width: 10px;
+  height: 10px;
+  background: #2196F3;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  cursor: nwse-resize;
+  z-index: 20;
+}
+
+.lp-resize-handle:hover {
+  background: #1565c0;
+}
+
+/* ── Optimizing overlay ──────────────────────────────── */
+
+.lp-optimizing-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.lp-optimizing-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+.lp-optimizing-spinner {
+  width: 18px;
+  height: 18px;
+  border: 2.5px solid #ddd;
+  border-top-color: #1976d2;
+  border-radius: 50%;
+  animation: lp-spin 0.8s linear infinite;
+}
+
+@keyframes lp-spin {
+  to { transform: rotate(360deg); }
+}
+
+.lp-result-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+  pointer-events: none;
+}

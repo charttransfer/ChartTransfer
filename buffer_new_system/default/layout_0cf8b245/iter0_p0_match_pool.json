@@ -1,0 +1,24 @@
+[
+  {
+    "t_target_path": "1",
+    "v_target_path": "1",
+    "entry": {
+      "source": "/data1/liduan/ChartGalaxyDemo_Copy/ChartGalaxy_NewSystem/extracted_layout_results/Commute-Origin_layout.json",
+      "v_source_path": "1",
+      "full_struct_sig": "layer(chart:background,image:bottom)",
+      "struct_sig": "chart:background"
+    },
+    "cond_prob": 0.5
+  },
+  {
+    "t_target_path": "",
+    "v_target_path": "1-1",
+    "entry": {
+      "source": "/data1/liduan/ChartGalaxyDemo_Copy/ChartGalaxy_NewSystem/extracted_layout_results/Commute-Origin_layout.json",
+      "v_source_path": "1-1",
+      "full_struct_sig": "column:center(column:center(text:center,text:center),layer(chart:background,image:bottom))",
+      "struct_sig": "column:center(column:center(text:center,text:center),chart:background)"
+    },
+    "cond_prob": 1.0
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "user_access": {
+    "0": ["Commute-Origin"]
+  },
+  "groups": [
+    {
+      "data_file": "Commute-Origin",
+      "label": "Design Salary",
+      "examples": [
+        "Commute-Origin"
+      ]
+    }
+  ]
+}

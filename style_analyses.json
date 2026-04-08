@@ -1,0 +1,50 @@
+{
+  "analyses": {
+    "Commute-Origin": {
+      "example_name": "Commute-Origin",
+      "overall_style": {
+        "style_keywords": [
+          "modern",
+          "flat",
+          "vibrant",
+          "geometric",
+          "stylized",
+          "bold",
+          "clean",
+          "high-contrast"
+        ]
+      },
+      "pictogram_analysis": {
+        "style_keywords": [
+          "flat",
+          "colorful",
+          "character-based",
+          "modern",
+          "geometric"
+        ],
+        "role": "topic_indicator",
+        "related_data_fact": null
+      },
+      "title_analysis": {
+        "character_count": 79,
+        "line_count": 3,
+        "line_structure": "Three lines: main title on the first line, a large all-caps subtitle on the second, and a descriptive subtitle in a smaller font on the third.",
+        "text_content": "Al at Work\nACROSS GENERATIONS\nShare of employees using their own Al tools at work"
+      },
+      "chart_analysis": {
+        "chart_type": "vertical bar chart",
+        "confidence": "high"
+      },
+      "errors": []
+    }
+  },
+  "stats": {
+    "total": 53,
+    "successful": 29,
+    "partial": 5,
+    "failed": 19,
+    "missing_pictogram": 25,
+    "missing_title": 26,
+    "missing_chart": 29
+  }
+}

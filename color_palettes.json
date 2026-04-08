@@ -1,0 +1,23 @@
+{
+  "palettes": {
+    "Commute-Origin": {
+      "background_colors": [
+        "#F8F4ED"
+      ],
+      "categorical_encoding_colors": [
+        "#F7D046",
+        "#6A38E8",
+        "#27C28C",
+        "#888888"
+      ],
+      "data_mark_color": null,
+      "foreground_theme_colors": [
+        "#2C3E50",
+        "#E74C3C",
+        "#3B59F7",
+        "#FFFFFF"
+      ],
+      "numerical_encoding_colors": []
+    }
+  }
+}

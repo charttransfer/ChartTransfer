@@ -1,0 +1,235 @@
+{
+  "type": "column",
+  "bbox": {
+    "x": 95.0,
+    "y": 57.999999999999986,
+    "width": 964.0,
+    "height": 1282.9999999999998
+  },
+  "alignment": "center",
+  "children": [
+    {
+      "type": "column",
+      "bbox": {
+        "x": 95.0,
+        "y": 57.999999999999986,
+        "width": 889.9999999999999,
+        "height": 268.0
+      },
+      "alignment": "center",
+      "children": [
+        {
+          "type": "text",
+          "bbox": {
+            "x": 95.0,
+            "y": 57.999999999999986,
+            "width": 890.0,
+            "height": 208.99999999999997
+          },
+          "content": "AI at Work ACROSS GENERATIONS",
+          "role": "TITLE_PRIMARY_1",
+          "role_base": "TITLE_PRIMARY",
+          "purpose": "Main headline - primary focus and subject",
+          "content_requirements": "Short, impactful phrase identifying the topic",
+          "font_family": "Helvetica",
+          "font_weight": "bold",
+          "color": "#000000",
+          "font_size_px": 80,
+          "font_style": "normal",
+          "letter_spacing": 0.05,
+          "text_transform": "uppercase",
+          "line_count": 2,
+          "alignment": "center"
+        },
+        {
+          "type": "text",
+          "bbox": {
+            "x": 102.0,
+            "y": 279.0,
+            "width": 876.0,
+            "height": 47.0
+          },
+          "content": "Share of employees using their own AI tools at work",
+          "role": "SUBTITLE_1",
+          "role_base": "SUBTITLE",
+          "purpose": "Subtitle explaining the specific metric being shown",
+          "content_requirements": "Clear description of the data point",
+          "font_family": "Helvetica",
+          "font_weight": "normal",
+          "color": "#000000",
+          "font_size_px": 40,
+          "font_style": "normal",
+          "letter_spacing": 0,
+          "text_transform": "none",
+          "line_count": 1,
+          "alignment": "center",
+          "background": {
+            "color": "#F4A7C5",
+            "padding": "2px 4px",
+            "border_radius": "0px"
+          }
+        }
+      ],
+      "constraints": {
+        "relative_size": [
+          {
+            "type": "relative_height",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 4.446808510638297,
+            "operator": "greater_than"
+          },
+          {
+            "type": "relative_width",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 1.0159817351598173,
+            "operator": "equal_to"
+          }
+        ],
+        "alignment": {
+          "type": "alignment",
+          "direction": "horizontal",
+          "value": "center"
+        },
+        "gap": {
+          "type": "gap",
+          "direction": "vertical",
+          "value": 12.000000000000057
+        },
+        "padding": {
+          "type": "padding",
+          "horizontal": {
+            "left": 0,
+            "right": 0
+          },
+          "vertical": {
+            "top": 0,
+            "bottom": 0
+          }
+        }
+      }
+    },
+    {
+      "type": "layer",
+      "bbox": {
+        "x": 102.0,
+        "y": 379.0,
+        "width": 957.0000000000001,
+        "height": 961.9999999999998
+      },
+      "children": [
+        {
+          "type": "chart",
+          "bbox": {
+            "x": 102.0,
+            "y": 379.0,
+            "width": 877.0000000000002,
+            "height": 954.0
+          },
+          "content": "A bar chart titled 'AI at Work ACROSS GENERATIONS' comparing AI tool usage among Gen Z (85%), Millennials (78%), Gen X (76%), and Boomers (73%).",
+          "alignment": "background"
+        },
+        {
+          "type": "image",
+          "bbox": {
+            "x": 103.0,
+            "y": 821.9999999999999,
+            "width": 956.0000000000001,
+            "height": 518.9999999999999
+          },
+          "content": "Illustrations of diverse professionals working with technology, including a person holding a tablet, a person working on a laptop, a professional with a VR headset, and an older man in a chair with a laptop.",
+          "alignment": "bottom",
+          "role": "ILLUSTRATIVE",
+          "purpose": "To provide a visual context that supports and enhances the textual information, helping the viewer quickly grasp the theme or specific concepts being discussed in that section of the infographic.",
+          "content_requirements": "The image should be highly relevant to the surrounding text, maintain visual harmony with the infographic's overall style and color palette, and be clear and high-resolution enough to convey its intended meaning at the specified large dimensions."
+        }
+      ],
+      "constraints": {
+        "relative_size": [
+          {
+            "type": "relative_height",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 1.8381502890173413,
+            "operator": "greater_than"
+          },
+          {
+            "type": "relative_width",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 0.9173640167364018,
+            "operator": "less_than"
+          }
+        ],
+        "padding": {
+          "type": "padding",
+          "horizontal": {
+            "left": 0,
+            "right": 0
+          },
+          "vertical": {
+            "top": 0,
+            "bottom": 0
+          }
+        },
+        "orientation": [
+          {
+            "type": "orientation",
+            "source_index": 1,
+            "target_index": 0,
+            "position": "bottom"
+          }
+        ],
+        "overlap": [
+          {
+            "type": "non_overlap",
+            "source_index": 0,
+            "target_index": 1,
+            "source_type": "chart",
+            "target_type": "image"
+          }
+        ]
+      }
+    }
+  ],
+  "constraints": {
+    "relative_size": [
+      {
+        "type": "relative_height",
+        "source_index": 0,
+        "target_index": 1,
+        "ratio": 0.27858627858627866,
+        "operator": "less_than"
+      },
+      {
+        "type": "relative_width",
+        "source_index": 0,
+        "target_index": 1,
+        "ratio": 0.9299895506792056,
+        "operator": "less_than"
+      }
+    ],
+    "alignment": {
+      "type": "alignment",
+      "direction": "horizontal",
+      "value": "center"
+    },
+    "gap": {
+      "type": "gap",
+      "direction": "vertical",
+      "value": 53.0
+    },
+    "padding": {
+      "type": "padding",
+      "horizontal": {
+        "left": 0,
+        "right": 0
+      },
+      "vertical": {
+        "top": 0,
+        "bottom": 0
+      }
+    }
+  }
+}

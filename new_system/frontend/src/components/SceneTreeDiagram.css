@@ -1,0 +1,135 @@
+.std-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: grab;
+  background: #fafbfc;
+  user-select: none;
+}
+
+.std-container:active {
+  cursor: grabbing;
+}
+
+.std-svg {
+  display: block;
+}
+
+.std-link {
+  fill: none;
+  stroke: #d0d4d8;
+  stroke-width: 1.5;
+}
+
+.std-node {
+  cursor: pointer;
+}
+
+.std-node:hover rect,
+.std-node.active rect {
+  filter: brightness(1.1);
+}
+
+.std-node-label {
+  fill: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  pointer-events: none;
+}
+
+.std-node-content {
+  fill: rgba(255, 255, 255, 0.75);
+  font-size: 10px;
+  pointer-events: none;
+}
+
+.std-node-count {
+  fill: #80868b;
+  font-size: 10px;
+  pointer-events: none;
+}
+
+.std-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #bdc1c6;
+  font-size: 15px;
+}
+
+/* ── Floating detail card ── */
+.std-detail-card {
+  position: absolute;
+  z-index: 20;
+  width: 400px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.15);
+  padding: 0;
+  pointer-events: auto;
+}
+
+.std-detail-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.std-detail-card-type {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: .3px;
+  flex-shrink: 0;
+}
+
+.std-detail-card-role {
+  font-size: 13px;
+  color: #3c4043;
+  font-weight: 500;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.std-detail-card-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #80868b;
+  padding: 0 2px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.std-detail-card-close:hover { color: #202124; }
+
+.std-detail-card .st-detail {
+  padding: 8px 10px;
+}
+
+.std-detail-card .st-constraints-card {
+  margin-left: 0 !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 0;
+}
+
+.std-detail-card .st-constraints-header {
+  padding: 6px 10px;
+}
+
+.std-detail-card .st-constraints-body {
+  padding: 4px 10px 8px;
+}

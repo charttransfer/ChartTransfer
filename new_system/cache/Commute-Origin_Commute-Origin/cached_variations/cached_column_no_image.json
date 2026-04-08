@@ -1,0 +1,136 @@
+{
+  "type": "column",
+  "bbox": {
+    "x": 0,
+    "y": 0,
+    "width": 1080,
+    "height": 1350
+  },
+  "alignment": "center",
+  "constraints": {
+    "alignment": {
+      "value": "center",
+      "direction": "horizontal"
+    },
+    "gap": {
+      "type": "gap",
+      "direction": "vertical",
+      "value": 20
+    }
+  },
+  "children": [
+    {
+      "type": "column",
+      "bbox": {
+        "x": 95.0,
+        "y": 57.999999999999986,
+        "width": 889.9999999999999,
+        "height": 268.0
+      },
+      "alignment": "center",
+      "children": [
+        {
+          "type": "text",
+          "bbox": {
+            "x": 95.0,
+            "y": 57.999999999999986,
+            "width": 890.0,
+            "height": 208.99999999999997
+          },
+          "content": "AI at Work ACROSS GENERATIONS",
+          "role": "TITLE_PRIMARY_1",
+          "role_base": "TITLE_PRIMARY",
+          "purpose": "Main headline - primary focus and subject",
+          "content_requirements": "Short, impactful phrase identifying the topic",
+          "font_family": "Helvetica",
+          "font_weight": "bold",
+          "color": "#000000",
+          "font_size_px": 80,
+          "font_style": "normal",
+          "letter_spacing": 0.05,
+          "text_transform": "uppercase",
+          "line_count": 2,
+          "alignment": "center"
+        },
+        {
+          "type": "text",
+          "bbox": {
+            "x": 102.0,
+            "y": 279.0,
+            "width": 876.0,
+            "height": 47.0
+          },
+          "content": "Share of employees using their own AI tools at work",
+          "role": "SUBTITLE_1",
+          "role_base": "SUBTITLE",
+          "purpose": "Subtitle explaining the specific metric being shown",
+          "content_requirements": "Clear description of the data point",
+          "font_family": "Helvetica",
+          "font_weight": "normal",
+          "color": "#000000",
+          "font_size_px": 40,
+          "font_style": "normal",
+          "letter_spacing": 0,
+          "text_transform": "none",
+          "line_count": 1,
+          "alignment": "center",
+          "background": {
+            "color": "#F4A7C5",
+            "padding": "2px 4px",
+            "border_radius": "0px"
+          }
+        }
+      ],
+      "constraints": {
+        "relative_size": [
+          {
+            "type": "relative_height",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 4.446808510638297,
+            "operator": "greater_than"
+          },
+          {
+            "type": "relative_width",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 1.0159817351598173,
+            "operator": "equal_to"
+          }
+        ],
+        "alignment": {
+          "type": "alignment",
+          "direction": "horizontal",
+          "value": "center"
+        },
+        "gap": {
+          "type": "gap",
+          "direction": "vertical",
+          "value": 12.000000000000057
+        },
+        "padding": {
+          "type": "padding",
+          "horizontal": {
+            "left": 0,
+            "right": 0
+          },
+          "vertical": {
+            "top": 0,
+            "bottom": 0
+          }
+        }
+      }
+    },
+    {
+      "type": "chart",
+      "bbox": {
+        "x": 102.0,
+        "y": 379.0,
+        "width": 877.0000000000002,
+        "height": 954.0
+      },
+      "content": "A bar chart titled 'AI at Work ACROSS GENERATIONS' comparing AI tool usage among Gen Z (85%), Millennials (78%), Gen X (76%), and Boomers (73%).",
+      "alignment": "background"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+.sts-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sts-toolbar {
+  display: flex;
+  gap: 2px;
+  padding: 6px 10px;
+  border-bottom: 1px solid #e8eaed;
+  flex-shrink: 0;
+  background: #fafbfc;
+}
+
+.sts-mode-btn {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 14px;
+  border: 1px solid #dadce0;
+  background: #fff;
+  color: #5f6368;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.sts-mode-btn:first-of-type {
+  border-radius: 5px 0 0 5px;
+}
+
+.sts-mode-btn + .sts-mode-btn {
+  border-radius: 0 5px 5px 0;
+  border-left: none;
+}
+
+.sts-mode-btn.active {
+  background: #1967d2;
+  color: #fff;
+  border-color: #1967d2;
+}
+
+.sts-mode-btn:not(.active):hover {
+  background: #f1f3f4;
+}
+
+.sts-batch-area {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sts-batch-btn {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border: 1px solid #1967d2;
+  background: #1967d2;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.sts-batch-btn:hover {
+  background: #1557b0;
+  border-color: #1557b0;
+}
+
+.sts-batch-progress {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1967d2;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.sts-batch-spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #dadce0;
+  border-top-color: #1967d2;
+  border-radius: 50%;
+  animation: sts-spin 0.8s linear infinite;
+}
+@keyframes sts-spin {
+  to { transform: rotate(360deg); }
+}
+
+.sts-batch-stop {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border: 1px solid #d93025;
+  background: #fff;
+  color: #d93025;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.sts-batch-stop:hover {
+  background: #fce8e6;
+}
+
+.sts-batch-notification {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #fef7e0;
+  border-bottom: 1px solid #f9e6a0;
+  font-size: 13px;
+  color: #3c4043;
+  line-height: 1.4;
+}
+.sts-batch-notification span:first-child {
+  flex: 1;
+}
+.sts-batch-notification-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #80868b;
+  padding: 2px 4px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.sts-batch-notification-close:hover {
+  color: #202124;
+}
+
+.sts-body {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}

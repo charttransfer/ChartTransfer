@@ -1,0 +1,211 @@
+{
+  "type": "column",
+  "bbox": {
+    "x": 0,
+    "y": 0,
+    "width": 964.0,
+    "height": 1282.9999999999998
+  },
+  "constraints": {
+    "relative_size": [
+      {
+        "type": "relative_height",
+        "source_index": 0,
+        "target_index": 1,
+        "ratio": 0.27858627858627866,
+        "operator": "less_than"
+      },
+      {
+        "type": "relative_width",
+        "source_index": 0,
+        "target_index": 1,
+        "ratio": 0.9299895506792056,
+        "operator": "less_than"
+      }
+    ],
+    "alignment": {
+      "type": "alignment",
+      "direction": "horizontal",
+      "value": "center"
+    },
+    "gap": {
+      "type": "gap",
+      "direction": "vertical",
+      "value": 53.0
+    },
+    "padding": {
+      "type": "padding",
+      "horizontal": {
+        "left": 0,
+        "right": 0
+      },
+      "vertical": {
+        "top": 0,
+        "bottom": 0
+      }
+    }
+  },
+  "alignment": "center",
+  "children": [
+    {
+      "type": "column",
+      "bbox": {
+        "x": 95.0,
+        "y": 57.999999999999986,
+        "width": 889.9999999999999,
+        "height": 268.0
+      },
+      "constraints": {
+        "relative_size": [
+          {
+            "type": "relative_height",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 4.446808510638297,
+            "operator": "greater_than"
+          },
+          {
+            "type": "relative_width",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 1.0159817351598173,
+            "operator": "equal_to"
+          }
+        ],
+        "alignment": {
+          "type": "alignment",
+          "direction": "horizontal",
+          "value": "center"
+        },
+        "gap": {
+          "type": "gap",
+          "direction": "vertical",
+          "value": 12.000000000000057
+        },
+        "padding": {
+          "type": "padding",
+          "horizontal": {
+            "left": 0,
+            "right": 0
+          },
+          "vertical": {
+            "top": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "alignment": "center",
+      "children": [
+        {
+          "type": "text",
+          "bbox": {
+            "x": 95.0,
+            "y": 57.999999999999986,
+            "width": 890.0,
+            "height": 208.99999999999997
+          },
+          "constraints": {},
+          "alignment": "center",
+          "image_path": "/data1/liduan/ChartGalaxyDemo_Copy/ChartGalaxy_NewSystem/buffer_new_system/liduan429_gmail_com/Commute-Origin_Commute-Origin/f1628e6b.png",
+          "id": "0-0-0"
+        },
+        {
+          "type": "text",
+          "bbox": {
+            "x": 102.0,
+            "y": 279.0,
+            "width": 876.0,
+            "height": 47.0
+          },
+          "constraints": {},
+          "alignment": "center",
+          "image_path": "/data1/liduan/ChartGalaxyDemo_Copy/ChartGalaxy_NewSystem/buffer_new_system/liduan429_gmail_com/Commute-Origin_Commute-Origin/1e400b15.png",
+          "id": "0-0-1"
+        }
+      ]
+    },
+    {
+      "type": "layer",
+      "bbox": {
+        "x": 102.0,
+        "y": 379.0,
+        "width": 957.0000000000001,
+        "height": 961.9999999999998
+      },
+      "constraints": {
+        "relative_size": [
+          {
+            "type": "relative_height",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 1.8381502890173413,
+            "operator": "greater_than"
+          },
+          {
+            "type": "relative_width",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 0.9173640167364018,
+            "operator": "less_than"
+          }
+        ],
+        "padding": {
+          "type": "padding",
+          "horizontal": {
+            "left": 0,
+            "right": 0
+          },
+          "vertical": {
+            "top": 0,
+            "bottom": 0
+          }
+        },
+        "orientation": [
+          {
+            "type": "orientation",
+            "source_index": 1,
+            "target_index": 0,
+            "position": "bottom"
+          }
+        ],
+        "overlap": [
+          {
+            "type": "partially_overlap",
+            "source_index": 0,
+            "target_index": 1,
+            "source_type": "chart",
+            "target_type": "image"
+          }
+        ]
+      },
+      "children": [
+        {
+          "type": "chart",
+          "bbox": {
+            "x": 102.0,
+            "y": 379.0,
+            "width": 877.0000000000002,
+            "height": 954.0
+          },
+          "constraints": {},
+          "alignment": "background",
+          "image_path": "/data1/liduan/ChartGalaxyDemo_Copy/ChartGalaxy_NewSystem/buffer_new_system/liduan429_gmail_com/Commute-Origin_Commute-Origin/b598382b.png",
+          "id": "0-1-0"
+        },
+        {
+          "type": "image",
+          "bbox": {
+            "x": 103.0,
+            "y": 821.9999999999999,
+            "width": 956.0000000000001,
+            "height": 518.9999999999999
+          },
+          "constraints": {},
+          "alignment": "bottom",
+          "image_path": "/data1/liduan/ChartGalaxyDemo_Copy/ChartGalaxy_NewSystem/buffer_new_system/liduan429_gmail_com/Commute-Origin_Commute-Origin/8bb0b1b9.png",
+          "id": "0-1-1"
+        }
+      ]
+    }
+  ]
+}

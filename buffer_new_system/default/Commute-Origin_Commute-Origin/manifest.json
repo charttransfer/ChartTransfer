@@ -1,0 +1,108 @@
+{
+  "0-0-0": {
+    "type": "text",
+    "step1Status": "done",
+    "textContent": "Creative Directors earn the highest mean salary\nreaching up to $118,250 after 5+ years experience.",
+    "step2Status": "done",
+    "svgData": {
+      "width": 3900.0,
+      "height": 440.0,
+      "viewBox": "0 0 3900 440",
+      "lines": [
+        {
+          "x": 1950.0,
+          "y": 165.0,
+          "opacity": 1.0,
+          "text_anchor": "middle",
+          "segments": [
+            {
+              "text": "CREATIVE DIRECTORS EARN THE",
+              "font_family": "Georgia",
+              "font_size": 112.0,
+              "font_weight": "700",
+              "fill": "#000000"
+            }
+          ]
+        },
+        {
+          "x": 1950.0,
+          "y": 305.0,
+          "opacity": 1.0,
+          "text_anchor": "middle",
+          "segments": [
+            {
+              "text": "HIGHEST MEAN SALARY REACHING",
+              "font_family": "Georgia",
+              "font_size": 112.0,
+              "font_weight": "700",
+              "fill": "#000000"
+            }
+          ]
+        },
+        {
+          "x": 1950.0,
+          "y": 415.0,
+          "opacity": 1.0,
+          "text_anchor": "middle",
+          "segments": [
+            {
+              "text": "UP TO $118,250 AFTER 5+ YEARS EXPERIENCE.",
+              "font_family": "Georgia",
+              "font_size": 84.0,
+              "font_weight": "700",
+              "fill": "#000000"
+            }
+          ]
+        }
+      ]
+    },
+    "pngUrl": "/api/element-image/buffer_new_system/liduan429_gmail_com/Commute-Origin_Commute-Origin/f1628e6b.png"
+  },
+  "0-0-1": {
+    "type": "text",
+    "step1Status": "done",
+    "textContent": "Salary Trends for Creative and Art\nDirectors",
+    "step2Status": "done",
+    "svgData": {
+      "width": 1400.0,
+      "height": 100.0,
+      "viewBox": "0 0 1400 100",
+      "lines": [
+        {
+          "x": 700.0,
+          "y": 60.0,
+          "opacity": 1.0,
+          "text_anchor": "middle",
+          "segments": [
+            {
+              "text": "Salary Trends for Creative and Art Directors",
+              "font_family": "Helvetica",
+              "font_size": 40.0,
+              "font_weight": "400",
+              "fill": "#000000"
+            }
+          ]
+        }
+      ]
+    },
+    "pngUrl": "/api/element-image/buffer_new_system/liduan429_gmail_com/Commute-Origin_Commute-Origin/1e400b15.png"
+  },
+  "0-1-0": {
+    "type": "chart",
+    "selectedTemplate": "vertical_bar_pencil_pack_11",
+    "chartUrl": "/api/element-image/buffer_new_system/liduan429_gmail_com/Commute-Origin_Commute-Origin/b598382b.png",
+    "variationPreviews": {
+      "vertical_bar_pencil_pack_11": {
+        "status": "done",
+        "chartUrl": "/api/element-image/buffer_new_system/liduan429_gmail_com/Commute-Origin_Commute-Origin/b598382b.png"
+      }
+    }
+  },
+  "0-1-1": {
+    "type": "image",
+    "step1Status": "done",
+    "imagePrompt": "Flat vector illustration of a diverse group of creative professionals in a modern design studio setting. A creative director in a leadership pose, an art director using a digital stylus and tablet, a graphic designer focused on a sleek laptop, and an interaction designer holding a mobile interface. Minimalist facial features with simple dots for eyes, bold solid color blocks, geometric body shapes, corporate Memphis style, clean professional aesthetic, vibrant palette matching yellow, purple, green and red tones, high resolution, transparent background.. Style: Flat vector illustration, bold solid colors, minimalist geometric characters, corporate Memphis style. Transparent background, no white background, no solid background. No text, no labels, no numbers. Pure illustrative imagery only.",
+    "step2Status": "done",
+    "imageUrl": "/api/element-image/buffer_new_system/liduan429_gmail_com/Commute-Origin_Commute-Origin/8bb0b1b9.png"
+  }
+}

@@ -1,0 +1,791 @@
+{
+  "example_name": "Commute-Origin",
+  "reference_path": "infographics/Commute-Origin.png",
+  "style": {
+    "data_mark_color": null,
+    "colors": [
+      [
+        25,
+        42,
+        60
+      ],
+      [
+        230,
+        92,
+        35
+      ],
+      [
+        89,
+        101,
+        112
+      ],
+      [
+        253,
+        216,
+        193
+      ],
+      [
+        255,
+        141,
+        93
+      ],
+      [
+        196,
+        69,
+        28
+      ]
+    ],
+    "bg_color": [
+      241,
+      244,
+      246
+    ],
+    "chart_type": [
+      "bar chart"
+    ],
+    "example_metadata": {
+      "title": "AI at Work Across Generations",
+      "description": "Share of employees using their own AI tools at work",
+      "main_insight": "Gen Z has the highest share of employees using their own AI tools at work."
+    },
+    "layout": {
+      "title": {
+        "bbox": [
+          95.0,
+          57.99999999999999,
+          890.0,
+          208.99999999999997
+        ],
+        "x": 95.0,
+        "y": 57.99999999999999,
+        "width": 890.0,
+        "height": 208.99999999999997,
+        "type": "text"
+      },
+      "chart": {
+        "bbox": [
+          102.0,
+          379.0,
+          877.0000000000001,
+          954.0
+        ],
+        "x": 102.0,
+        "y": 379.0,
+        "width": 877.0000000000001,
+        "height": 954.0,
+        "type": "chart"
+      },
+      "image": {
+        "bbox": [
+          654.0000000000001,
+          893.9999999999999,
+          405.0,
+          446.99999999999994
+        ],
+        "x": 654.0000000000001,
+        "y": 893.9999999999999,
+        "width": 405.0,
+        "height": 446.99999999999994,
+        "type": "image"
+      }
+    },
+    "typography": {
+      "title_subtitle": {
+        "hierarchy": [
+          {
+            "font": "Open Sans, Sans-Serif",
+            "size": 36,
+            "weight": "bold",
+            "level": "H1"
+          },
+          {
+            "font": "Open Sans, Sans-Serif",
+            "size": 22,
+            "weight": "normal",
+            "level": "H2"
+          }
+        ]
+      },
+      "chart": {
+        "hierarchy": [
+          {
+            "font": "Open Sans, Sans-Serif",
+            "size": 18,
+            "weight": "normal",
+            "level": "H1"
+          },
+          {
+            "font": "Open Sans, Sans-Serif",
+            "size": 16,
+            "weight": "bold",
+            "level": "H2"
+          }
+        ]
+      },
+      "description": {
+        "hierarchy": [
+          {
+            "font": "Open Sans, Sans-Serif",
+            "size": 13,
+            "weight": "normal",
+            "level": "H1"
+          }
+        ]
+      }
+    },
+    "scene_graph": {
+      "type": "column",
+      "bbox": {
+        "x": 95.0,
+        "y": 57.999999999999986,
+        "width": 964.0,
+        "height": 1282.9999999999998
+      },
+      "alignment": "center",
+      "children": [
+        {
+          "type": "column",
+          "bbox": {
+            "x": 95.0,
+            "y": 57.999999999999986,
+            "width": 889.9999999999999,
+            "height": 268.0
+          },
+          "alignment": "center",
+          "children": [
+            {
+              "type": "text",
+              "bbox": {
+                "x": 95.0,
+                "y": 57.999999999999986,
+                "width": 890.0,
+                "height": 208.99999999999997
+              },
+              "content": "AI at Work ACROSS GENERATIONS",
+              "role": "TITLE_PRIMARY_1",
+              "role_base": "TITLE_PRIMARY",
+              "purpose": "Main headline - primary focus and subject",
+              "content_requirements": "Short, impactful phrase identifying the topic",
+              "font_family": "Helvetica",
+              "font_weight": "bold",
+              "color": "#000000",
+              "font_size_px": 80,
+              "font_style": "normal",
+              "letter_spacing": 0.05,
+              "text_transform": "uppercase",
+              "line_count": 2,
+              "alignment": "center"
+            },
+            {
+              "type": "text",
+              "bbox": {
+                "x": 102.0,
+                "y": 279.0,
+                "width": 876.0,
+                "height": 47.0
+              },
+              "content": "Share of employees using their own AI tools at work",
+              "role": "SUBTITLE_1",
+              "role_base": "SUBTITLE",
+              "purpose": "Subtitle explaining the specific metric being shown",
+              "content_requirements": "Clear description of the data point",
+              "font_family": "Helvetica",
+              "font_weight": "normal",
+              "color": "#000000",
+              "font_size_px": 40,
+              "font_style": "normal",
+              "letter_spacing": 0,
+              "text_transform": "none",
+              "line_count": 1,
+              "alignment": "center",
+              "background": {
+                "color": "#F4A7C5",
+                "padding": "2px 4px",
+                "border_radius": "0px"
+              }
+            }
+          ],
+          "constraints": {
+            "relative_size": [
+              {
+                "type": "relative_height",
+                "source_index": 0,
+                "target_index": 1,
+                "ratio": 4.446808510638297,
+                "operator": "greater_than"
+              },
+              {
+                "type": "relative_width",
+                "source_index": 0,
+                "target_index": 1,
+                "ratio": 1.0159817351598173,
+                "operator": "equal_to"
+              }
+            ],
+            "alignment": {
+              "type": "alignment",
+              "direction": "horizontal",
+              "value": "center"
+            },
+            "gap": {
+              "type": "gap",
+              "direction": "vertical",
+              "value": 12.000000000000057
+            },
+            "padding": {
+              "type": "padding",
+              "horizontal": {
+                "left": 0,
+                "right": 0
+              },
+              "vertical": {
+                "top": 0,
+                "bottom": 0
+              }
+            }
+          }
+        },
+        {
+          "type": "layer",
+          "bbox": {
+            "x": 102.0,
+            "y": 379.0,
+            "width": 957.0000000000001,
+            "height": 961.9999999999998
+          },
+          "children": [
+            {
+              "type": "chart",
+              "bbox": {
+                "x": 102.0,
+                "y": 379.0,
+                "width": 877.0000000000002,
+                "height": 954.0
+              },
+              "content": "A bar chart titled 'AI at Work ACROSS GENERATIONS' comparing AI tool usage among Gen Z (85%), Millennials (78%), Gen X (76%), and Boomers (73%).",
+              "alignment": "background"
+            },
+            {
+              "type": "image",
+              "bbox": {
+                "x": 103.0,
+                "y": 821.9999999999999,
+                "width": 956.0000000000001,
+                "height": 518.9999999999999
+              },
+              "content": "Illustrations of diverse professionals working with technology, including a person holding a tablet, a person working on a laptop, a professional with a VR headset, and an older man in a chair with a laptop.",
+              "alignment": "bottom",
+              "role": "ILLUSTRATIVE",
+              "purpose": "To provide a visual context that supports and enhances the textual information, helping the viewer quickly grasp the theme or specific concepts being discussed in that section of the infographic.",
+              "content_requirements": "The image should be highly relevant to the surrounding text, maintain visual harmony with the infographic's overall style and color palette, and be clear and high-resolution enough to convey its intended meaning at the specified large dimensions."
+            }
+          ],
+          "constraints": {
+            "relative_size": [
+              {
+                "type": "relative_height",
+                "source_index": 0,
+                "target_index": 1,
+                "ratio": 1.8381502890173413,
+                "operator": "greater_than"
+              },
+              {
+                "type": "relative_width",
+                "source_index": 0,
+                "target_index": 1,
+                "ratio": 0.9173640167364018,
+                "operator": "less_than"
+              }
+            ],
+            "padding": {
+              "type": "padding",
+              "horizontal": {
+                "left": 0,
+                "right": 0
+              },
+              "vertical": {
+                "top": 0,
+                "bottom": 0
+              }
+            },
+            "orientation": [
+              {
+                "type": "orientation",
+                "source_index": 1,
+                "target_index": 0,
+                "position": "bottom"
+              }
+            ],
+            "overlap": [
+              {
+                "type": "partially_overlap",
+                "source_index": 0,
+                "target_index": 1,
+                "source_type": "chart",
+                "target_type": "image"
+              }
+            ]
+          }
+        }
+      ],
+      "constraints": {
+        "relative_size": [
+          {
+            "type": "relative_height",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 0.27858627858627866,
+            "operator": "less_than"
+          },
+          {
+            "type": "relative_width",
+            "source_index": 0,
+            "target_index": 1,
+            "ratio": 0.9299895506792056,
+            "operator": "less_than"
+          }
+        ],
+        "alignment": {
+          "type": "alignment",
+          "direction": "horizontal",
+          "value": "center"
+        },
+        "gap": {
+          "type": "gap",
+          "direction": "vertical",
+          "value": 53.0
+        },
+        "padding": {
+          "type": "padding",
+          "horizontal": {
+            "left": 0,
+            "right": 0
+          },
+          "vertical": {
+            "top": 0,
+            "bottom": 0
+          }
+        }
+      }
+    },
+    "gradient": {
+      "has_gradient": true,
+      "start_color": {
+        "hex": "#161B5D",
+        "rgb": [
+          22,
+          27,
+          93
+        ]
+      },
+      "end_color": {
+        "hex": "#05071A",
+        "rgb": [
+          5,
+          7,
+          26
+        ]
+      },
+      "type": "linear",
+      "direction": "to-bottom"
+    }
+  },
+  "scene_graph": {
+    "type": "column",
+    "bbox": {
+      "x": 95.0,
+      "y": 57.999999999999986,
+      "width": 964.0,
+      "height": 1282.9999999999998
+    },
+    "alignment": "center",
+    "children": [
+      {
+        "type": "column",
+        "bbox": {
+          "x": 95.0,
+          "y": 57.999999999999986,
+          "width": 889.9999999999999,
+          "height": 268.0
+        },
+        "alignment": "center",
+        "children": [
+          {
+            "type": "text",
+            "bbox": {
+              "x": 95.0,
+              "y": 57.999999999999986,
+              "width": 890.0,
+              "height": 208.99999999999997
+            },
+            "content": "AI at Work ACROSS GENERATIONS",
+            "role": "TITLE_PRIMARY_1",
+            "role_base": "TITLE_PRIMARY",
+            "purpose": "Main headline - primary focus and subject",
+            "content_requirements": "Short, impactful phrase identifying the topic",
+            "font_family": "Helvetica",
+            "font_weight": "bold",
+            "color": "#000000",
+            "font_size_px": 80,
+            "font_style": "normal",
+            "letter_spacing": 0.05,
+            "text_transform": "uppercase",
+            "line_count": 2,
+            "alignment": "center"
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 102.0,
+              "y": 279.0,
+              "width": 876.0,
+              "height": 47.0
+            },
+            "content": "Share of employees using their own AI tools at work",
+            "role": "SUBTITLE_1",
+            "role_base": "SUBTITLE",
+            "purpose": "Subtitle explaining the specific metric being shown",
+            "content_requirements": "Clear description of the data point",
+            "font_family": "Helvetica",
+            "font_weight": "normal",
+            "color": "#000000",
+            "font_size_px": 40,
+            "font_style": "normal",
+            "letter_spacing": 0,
+            "text_transform": "none",
+            "line_count": 1,
+            "alignment": "center",
+            "background": {
+              "color": "#F4A7C5",
+              "padding": "2px 4px",
+              "border_radius": "0px"
+            }
+          }
+        ],
+        "constraints": {
+          "relative_size": [
+            {
+              "type": "relative_height",
+              "source_index": 0,
+              "target_index": 1,
+              "ratio": 4.446808510638297,
+              "operator": "greater_than"
+            },
+            {
+              "type": "relative_width",
+              "source_index": 0,
+              "target_index": 1,
+              "ratio": 1.0159817351598173,
+              "operator": "equal_to"
+            }
+          ],
+          "alignment": {
+            "type": "alignment",
+            "direction": "horizontal",
+            "value": "center"
+          },
+          "gap": {
+            "type": "gap",
+            "direction": "vertical",
+            "value": 12.000000000000057
+          },
+          "padding": {
+            "type": "padding",
+            "horizontal": {
+              "left": 0,
+              "right": 0
+            },
+            "vertical": {
+              "top": 0,
+              "bottom": 0
+            }
+          }
+        }
+      },
+      {
+        "type": "layer",
+        "bbox": {
+          "x": 102.0,
+          "y": 379.0,
+          "width": 957.0000000000001,
+          "height": 961.9999999999998
+        },
+        "children": [
+          {
+            "type": "chart",
+            "bbox": {
+              "x": 102.0,
+              "y": 379.0,
+              "width": 877.0000000000002,
+              "height": 954.0
+            },
+            "content": "A bar chart titled 'AI at Work ACROSS GENERATIONS' comparing AI tool usage among Gen Z (85%), Millennials (78%), Gen X (76%), and Boomers (73%).",
+            "alignment": "background"
+          },
+          {
+            "type": "image",
+            "bbox": {
+              "x": 103.0,
+              "y": 821.9999999999999,
+              "width": 956.0000000000001,
+              "height": 518.9999999999999
+            },
+            "content": "Illustrations of diverse professionals working with technology, including a person holding a tablet, a person working on a laptop, a professional with a VR headset, and an older man in a chair with a laptop.",
+            "alignment": "bottom",
+            "role": "ILLUSTRATIVE",
+            "purpose": "To provide a visual context that supports and enhances the textual information, helping the viewer quickly grasp the theme or specific concepts being discussed in that section of the infographic.",
+            "content_requirements": "The image should be highly relevant to the surrounding text, maintain visual harmony with the infographic's overall style and color palette, and be clear and high-resolution enough to convey its intended meaning at the specified large dimensions."
+          }
+        ],
+        "constraints": {
+          "relative_size": [
+            {
+              "type": "relative_height",
+              "source_index": 0,
+              "target_index": 1,
+              "ratio": 1.8381502890173413,
+              "operator": "greater_than"
+            },
+            {
+              "type": "relative_width",
+              "source_index": 0,
+              "target_index": 1,
+              "ratio": 0.9173640167364018,
+              "operator": "less_than"
+            }
+          ],
+          "padding": {
+            "type": "padding",
+            "horizontal": {
+              "left": 0,
+              "right": 0
+            },
+            "vertical": {
+              "top": 0,
+              "bottom": 0
+            }
+          },
+          "orientation": [
+            {
+              "type": "orientation",
+              "source_index": 1,
+              "target_index": 0,
+              "position": "bottom"
+            }
+          ],
+          "overlap": [
+            {
+              "type": "partially_overlap",
+              "source_index": 0,
+              "target_index": 1,
+              "source_type": "chart",
+              "target_type": "image"
+            }
+          ]
+        }
+      }
+    ],
+    "constraints": {
+      "relative_size": [
+        {
+          "type": "relative_height",
+          "source_index": 0,
+          "target_index": 1,
+          "ratio": 0.27858627858627866,
+          "operator": "less_than"
+        },
+        {
+          "type": "relative_width",
+          "source_index": 0,
+          "target_index": 1,
+          "ratio": 0.9299895506792056,
+          "operator": "less_than"
+        }
+      ],
+      "alignment": {
+        "type": "alignment",
+        "direction": "horizontal",
+        "value": "center"
+      },
+      "gap": {
+        "type": "gap",
+        "direction": "vertical",
+        "value": 53.0
+      },
+      "padding": {
+        "type": "padding",
+        "horizontal": {
+          "left": 0,
+          "right": 0
+        },
+        "vertical": {
+          "top": 0,
+          "bottom": 0
+        }
+      }
+    }
+  },
+  "boxes": [
+    {
+      "type": "TEXT",
+      "bbox": {
+        "x": 95.0,
+        "y": 57.999999999999986,
+        "width": 890.0,
+        "height": 208.99999999999997
+      },
+      "content": "AI at Work ACROSS GENERATIONS"
+    },
+    {
+      "type": "TEXT",
+      "bbox": {
+        "x": 102.0,
+        "y": 279.0,
+        "width": 876.0,
+        "height": 47.0
+      },
+      "content": "Share of employees using their own AI tools at work"
+    },
+    {
+      "type": "CHART",
+      "bbox": {
+        "x": 102.0,
+        "y": 379.0,
+        "width": 877.0000000000002,
+        "height": 954.0
+      },
+      "content": "A bar chart titled 'AI at Work ACROSS GENERATIONS' comparing AI tool usage among Gen Z (85%), Millennials (78%), Gen X (76%), and Boomers (73%)."
+    },
+    {
+      "type": "IMAGE",
+      "bbox": {
+        "x": 103.0,
+        "y": 821.9999999999999,
+        "width": 956.0000000000001,
+        "height": 518.9999999999999
+      },
+      "content": "Illustrations of diverse professionals working with technology, including a person holding a tablet, a person working on a laptop, a professional with a VR headset, and an older man in a chair with a laptop.",
+      "image_type": "illustration"
+    }
+  ],
+  "image_width": 1080,
+  "image_height": 1350,
+  "global_style": {
+    "overall_keywords": [
+      "modern",
+      "flat",
+      "vibrant",
+      "informative",
+      "textured",
+      "bold",
+      "illustrative"
+    ],
+    "color_scheme": "light",
+    "typography": {
+      "SUBTITLE_1": {
+        "alignment": "center",
+        "background": null,
+        "color": "#000000",
+        "content": "Share of employees using ",
+        "font_family": "Helvetica",
+        "font_size_px": 38,
+        "font_style": "normal",
+        "letter_spacing": 0,
+        "same_line_group": 1,
+        "shadow": null,
+        "size_ratio": 1,
+        "text_transform": "none",
+        "weight": "normal"
+      },
+      "SUBTITLE_2": {
+        "alignment": null,
+        "background": {
+          "border_radius": "0px",
+          "color": "#FF80AB",
+          "padding": "2px 6px"
+        },
+        "color": "#000000",
+        "content": "their own",
+        "font_family": "Helvetica",
+        "font_size_px": 38,
+        "font_style": "normal",
+        "letter_spacing": 0,
+        "same_line_group": 1,
+        "shadow": null,
+        "size_ratio": 1,
+        "text_transform": "none",
+        "weight": "bold"
+      },
+      "SUBTITLE_3": {
+        "alignment": null,
+        "background": null,
+        "color": "#000000",
+        "content": " AI tools at work",
+        "font_family": "Helvetica",
+        "font_size_px": 38,
+        "font_style": "normal",
+        "letter_spacing": 0,
+        "same_line_group": 1,
+        "shadow": null,
+        "size_ratio": 1,
+        "text_transform": "none",
+        "weight": "normal"
+      },
+      "TITLE_PRIMARY_1": {
+        "alignment": "center",
+        "background": null,
+        "color": "#000000",
+        "content": "AI at Work",
+        "font_family": "Georgia",
+        "font_size_px": 120,
+        "font_style": "normal",
+        "letter_spacing": 0,
+        "same_line_group": null,
+        "shadow": null,
+        "size_ratio": 1,
+        "text_transform": "none",
+        "weight": "bold"
+      },
+      "TITLE_PRIMARY_2": {
+        "alignment": "center",
+        "background": null,
+        "color": "#000000",
+        "content": "ACROSS GENERATIONS",
+        "font_family": "Helvetica",
+        "font_size_px": 70,
+        "font_style": "normal",
+        "letter_spacing": 0.05,
+        "same_line_group": null,
+        "shadow": null,
+        "size_ratio": 1,
+        "text_transform": "uppercase",
+        "weight": "bold"
+      }
+    },
+    "decorative_style": {
+      "keywords": [
+        "flat vector illustrations",
+        "geometric patterns",
+        "textured backgrounds",
+        "vibrant colors"
+      ],
+      "reuse_pattern": true,
+      "style_notes": "Each data bar features a unique geometric texture (grid, dots, lines, crosses). Character illustrations are flat with simple shapes and bold colors. The background has a subtle, fine dot pattern."
+    },
+    "element_consistency_rules": [
+      "Each data bar must have a distinct color and internal geometric pattern",
+      "Percentage values should be placed inside the top of the bars using a consistent serif font",
+      "Generation labels should be placed directly above the bars",
+      "Character illustrations should maintain a consistent flat vector style and be positioned at the base of the bars",
+      "Primary titles should use a bold serif font, while secondary text uses a clean sans-serif"
+    ],
+    "same_line_groups": {
+      "1": [
+        "SUBTITLE_1",
+        "SUBTITLE_2",
+        "SUBTITLE_3"
+      ]
+    }
+  },
+  "timestamp": 1773138922.177012
+}

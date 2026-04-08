@@ -1,0 +1,10 @@
+flask
+flask-cors
+pandas
+torch
+openai
+google-genai
+Pillow
+numpy
+lxml
+beautifulsoup4

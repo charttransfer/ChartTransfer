@@ -1,0 +1,17 @@
+{
+  "examples": {
+    "Commute-Origin": {
+      "image_path": "infographics/Commute-Origin.png",
+      "scene_graph_path": "extracted_layout_results/Commute-Origin_layout.json",
+      "ours_path": "logs/scene_tree_exports/Commute-Origin_Commute-Origin",
+      "ours_variants": [
+        {
+          "datafile": "Commute-Origin",
+          "dir": "logs/scene_tree_exports/Commute-Origin_Commute-Origin",
+          "image_url": "/logs/scene_tree_exports/Commute-Origin_Commute-Origin/hierarchical_result_no_box.png",
+          "has_elements": false
+        }
+      ]
+    }
+  }
+}
